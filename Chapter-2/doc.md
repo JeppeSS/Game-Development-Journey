@@ -9,3 +9,6 @@ Before we dive into making games, let's understand some basics.
 ### What is a Programming Language?
 
 Think of a programming language as a way to talk to the computer. 
+
+
+[> Chapter 1](../Chapter-1/doc.md)
