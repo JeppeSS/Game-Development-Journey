@@ -25,6 +25,22 @@ The goal of this tutorial is to make game development accessible to everyone, re
 
 I belive in the power of continuous improvement. Just as I strive to become a better game developer, I encourage you to help me improve this tutorial. If you spot errors, have suggestions, or want to share your insights, please don't hesitate to reach out. Your feedback is invaluable, and together, we can make this resource even more valuable to aspiring game developers.
 
+### Join the Game Development Community
+
+To foster a dynamic and collaborative learning experience, I've launched a dedicated Discord channel tailored to this tutorial. Here, we can embark on our game development journeys together, pooling our expertise and creativity to accelerate our progress.
+
+**In our community, you can expect:**
+
+- **Collaborative Learning:** Join forces with fellow learners to tackle challenges, brainstorm ideas, and build projects collectively. We believe that the best learning often happens through collaboration.
+
+- **Idea Exchange:** This is your space to share, critique, and refine your game concepts. Don't hesistate to bounce your ideas off the community and get valuable feedback.
+
+- **Support and Camaraderie:** Game development can have its highs and lows. In our Discord channel, you'll find a supportive network of like-minded individuals ready to encourage you during tough times and celebrate your successes.
+
+**Come, be a part of our thriving community of aspiring game developers!**
+
+Join us today on Discord and let's embark on this exciting game development journey together. 
+
 ## Choosing a Programming Language
 
 ### Odin: A Starting Point
