@@ -41,12 +41,6 @@ To foster a dynamic and collaborative learning experience, I've launched a dedic
 
 Join us today on Discord and let's embark on this exciting game development journey together. 
 
-## Choosing a Programming Language
-
-### Odin: A Starting Point
-
-In this tutorial, I've choosen Odin as the programming language. However, I want to make it clear that you're not limited to Odin. You're welcome to choose whatever programming language you prefer and follow along. The concepts we explore here are applicable to various languages, and the goal is to understand the fundamentals of game development that can be applied in a broader context.
-
 ## Get Ready for the Adventure
 
 So, whether you're just starting your journey into game development or seeking to expand your skillset, let's embark on this adventure together. Get ready to explore the fascinating world of game creation, one step at a time.
