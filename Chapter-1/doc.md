@@ -46,4 +46,4 @@ Join us today on Discord and let's embark on this exciting game development jour
 So, whether you're just starting your journey into game development or seeking to expand your skillset, let's embark on this adventure together. Get ready to explore the fascinating world of game creation, one step at a time.
 
 
-[> Chapter 2](../Chapter-2/doc.md)
+[Next Chapter: Chapter 2](../Chapter-2/doc.md)
