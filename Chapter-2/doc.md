@@ -1,8 +1,3 @@
 # The Path Begins: Preparing Your Toolkit
 
 As we step onto this exhilarating path, our goal in this chapter is to gather the essential tools and choose the programming language that will be our trusted companions throughout our game development adventure. We'll equip ourselves with the knowledge and resources needed to forge our creative visions into interactive and captivating games. So, roll up your sleeves, fellow adventurers, and let's prepare our toolkit for the exciting journey ahead!
-
-
-[Next Chapter: Chapter 3](../Chapter-3/doc.md)
-
-[Previous Chapter: Chapter 1](../Chapter-1/doc.md)
