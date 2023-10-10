@@ -1,32 +1,32 @@
 # Embarking on the Coding Odyssey
 
-As you stand on the threshold of your game development journey, the tools of the trade are at your fingertips: the Odin programming language and Visual Studio Code. The adventure is about to get even more exciting as we dive into the heart of coding and game development.
+As you stand on the threshold of your game development journey, the tools of the trade are at your fingertips: the Odin programming language and `Visual Studio Code`. The adventure is about to get even more exciting as we dive into the heart of coding and game development.
 
-Imagine yourself in a dimly lit room, your computer screen casting an otherworldly glow. A sense of anticipation courses through you as you prepare to unlock the secrets of game development. In this chapter, we'll unravel the fundamentals that underpin this captivating realm. Consider these concepts as the bedrock upon which your game development skills will be built.
+Visualize yourself in a dimly lit room, your computer screen casting an otherworldly glow. An electrifying sense of anticipation courses through you as you prepare to unlock the secrets of game development. In this chapter, we will unravel the fundamentals that underpin this captivating realm. These concepts will serve as the bedrock upon which your game development skills will flourish.
 
 ## The Canvas of Code
 
-Before we delve into the practical side of things, it's time to create a dedicated workspace for your game development projects. Much like an artist preparing their canvas, you're about to set the stage for your coding masterpieces.
+Before we dive into the practical side of things, it's time to create a dedicated workspace for your game development projects. Similar to an artist preparing their canvas, you are about to set the stage for your coding masterpieces.
 
 ### Step 1: Crafting a Project Sanctuary
 
-Begin by selecting a location on your computer where you'll house all your game development creations. Picture this place as your sanctuary, where your ideas will come to life. If you're comfortable with the command line, let's embark on this journey together:
+Begin by selecting a location on your computer where you will house all your game development creations. Envision this place as your sanctuary, a sacred realm where your ideas will spring to life. If you are comfortable with the command line, let's embark on this journey together:
 
 ```shell
 C:\Users\YourUsername\Documents> mkdir Game-Dev-Sanctuary
 ```
 
-The `mkdir` command, like a magician conjuring a portal, creates a new folder in your chosen location. We're calling this realm **Game-Dev-Sanctuary** where your game development dreams will flourish.
+The `mkdir` command, much like a magician conjuring a portal, creates a new folder in your chosen location. We name this realm as **Game-Dev-Sanctuary**, where your game development dreams will flourish.
 
-### Step 2: Navigating to Your Creative Haven
+### Step 2: Navigating to Your workspace
 
-Now, let's step into your newly formed creative haven:
+Now, let's step into your newly formed workspace:
 
 ```shell
 C:\Users\YourUsername\Documents> cd Game-Dev-Sanctuary
 ```
 
-The `cd` command, akin to a guide leading you to an enchanted forest, allows you to enter your sanctuary. Your command line will now read:
+The `cd` command, akin to a wise guide leading you through an enchanted forest, allows you to enter your sanctuary. Your command line will now read:
 
 ```shell
 C:\Users\YourUsername\Documents\Game-Dev-Sanctuary>
@@ -34,19 +34,78 @@ C:\Users\YourUsername\Documents\Game-Dev-Sanctuary>
 
 ### Step 3: Establishing the Playground
 
-To keep your projects well-organized, it's wise to create a subfolder for each endeavor. Imagine these subfolders as chambers within your creative sanctuary. Let's craft one for your maiden tutorial project:
+To maintain impeccable organization for your projects, it is wise to create a subfolder for each endeavor. Picture these subfolders as chambers within your creative sanctuary. Let's craft one for your tutorial project:
 
 ```shell
 C:\Users\YourUsername\Documents\Game-Dev-Sanctuary> mkdir Tutorial-1
 ```
 
-With this act, you've laid the foundation for your first game development masterpiece. Now, step into this chamber:
+With this act, you have laid the foundation for your first game development masterpiece. Now, step into this chamber:
 
 ```shell
 C:\Users\YourUsername\Documents\Game-Dev-Sanctuary> cd Tutorial-1
 ```
 
-These steps, like a ritual of preparation, ensure that your workspace is ready to host your coding odyssey. In the upcoming sections, we'll roll up our sleeves and embark on the thrilling journey of creating your very first interactive program. The skills you acquire here will serve as the brushstrokes on your canvas, setting the stage for your grand game development adventures!
+These steps, akin to a ritual of preparation, ensure that your workspace is primed to host your coding odyssey. In the upcoming sections, we shall roll up our sleeves and embark on the thrilling journey of creating your very first interactive program. The skills you acquire here will serve as the brushstrokes on your canvas, setting the stage for your grand game development adventures!
+
+## Crafting Your First Tome Of Magic
+
+Now, you are ready to inscribe the ancient runes of magic. The first script we shall write is a simple program that will inscribe the text "Hello Aspiring Game Developer" onto the console. The purpose of this script is to ensure that we have everything set up correctly and to provide you with a glimpse of how we turn our code into reality. For now, don't fret over the details; we will delve deeper into them later.
+
+### Step 1: Unfurling Your Tome
+
+As you stand in your previously crafted chamber:
+
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>
+```
+
+It's time to unfurl your code tome. If you followed along and installed `Visual Studio Code`, you can now open a new scroll using the following command. If you haven't installed it yet, you can create a new file as you usually do:
+
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> code main.odin
+```
+Let's break down the command: `code` is a shortcut that comes with the installation of `Visual Studio Code`, which opens the editor. The second part, **main.odin**, tells Visual Studio Code to open the file if it exists or create a new file with that name.
+
+### Step 2: Scribing the Runes
+
+As you gaze upon the blank scroll, you feel the power at your fingertips, waiting for your words to bring it to life. Now, inscribe the following into your tome; try writing it down instead of copying and pasting:
+
+```go
+package main
+
+import "core:fmt"
+
+main :: proc() {
+    fmt.printf("Hello Aspiring Game Developer\n")
+}
+``` 
+
+Let's dissect this magical script. I don't expect you to fully grasp it all at once; simply follow along, read it a few times, and continue. We will revisit these concepts, and eventually, they will become clear.
+
+* `package main` : This line informs the computer that you're creating a program, and it belongs to a package named **main**. The **main** package is special; it's where the execution of the program starts.
+
+* `import "core:fmt"` : This line imports a package called **fmt** from a library named **core**. Packages are collections of code that provide various functions and tools, similar to a toolbox. The **fmt** package is commonly used for formatting and printing text.
+
+* `main :: proc()  { ... }` : This part defines the **main** procedure, which is the entry point for your program. Think of it as the starting line in a race. Let's break it down further:
+    
+    * `proc()` : This keyword tells us that this is a procedure, in this case, a procedure that doesn't take any arguments due to the empty parentheses.
+
+    * `main` : This is the name of the procedure.
+
+    * `{ ... }` :  This is the scope of our procedure. Everything between the opening bracket **{** and the closing bracket **}** belongs to this procedure.
+
+* ` fmt.printf("Hello Aspiring Game Developer\n")` :  This line calls a procedure named **printf** from the **fmt** package to write or print the text "Hello Aspiring Game Developer," followed by a newline character **\n** (which moves the cursor to the next line).
+
+In simple terms, this program does the following::
+
+* It uses built-in tools from the **fmt** package to print a message to the terminal.
+* The message it prints is "Hello Aspiring Game Developer".
+
+With your first script ready, you're about to learn how to cast this spell effectively.
+
+### Step 3: Casting Your Spell
+
 ## From Code to Computer Understanding
 
 Now, let's take a brief look at the magic that happens behind the scenes when you write code. When you write source code, it's like crafting a recipe for the computer. However, computers don't understand human languages, so your code needs to be translated into a language the computer can comprehend.
@@ -87,22 +146,6 @@ Our first challenge on this epic journey is to create an interactive program. Th
 
 Before we dive into coding, let's prepare ourselves with a breif overview of what lies ahead. We'll discuss the concepts and tools we need to conquer this challenge successfully.
 
-### Initial Program: Saying Hello
-
-Let's start with a simple program. Below is a Odin program that writes "Hello Aspiring Game Developer" to the screen. Take a moment to examine it:
-
-
-```go
-package main
-
-import "core:fmt"
-
-main :: proc() {
-    fmt.printf("Hello Aspiring Game Developer\n")
-}
-```
-Now you might think, what kind of foul magic is this? Do not fear my friend, we will get to the bottom of this. The above program is a basic example of a program that writes a fixed message to the terminal. For now we will ignore most parts of this program, but dont worry we will get back to this later. First we will try to get this program running.
-
 To create and run this program, follow these steps:
 
 - **Create a .odin File:**
@@ -134,15 +177,6 @@ To create and run this program, follow these steps:
         You should see the "Hello Aspiring Game Developer" message displayed on the screen.
 
 With these modifications, you not only learn how to code but also how to create, compile, and run a Odin program, which is a fundamental skill in software development.
-
-Let's try to disect the most essential of the program:
-
-```go
-main :: proc() {
-}
-```
-
-What we got here is the starting point of the program, this is also called the entry point of the program. 
 
 ## Your First Interactive Program
 
