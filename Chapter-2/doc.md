@@ -12,7 +12,7 @@ Then, a voice resonates within the void, its words carrying wisdom from the anna
 
 ## Choosing a language
 
-Before we plunge into the realm of coding, where language serves as both our guide and our enigma, we must make preparations. This tutorial does not confine you to a single tongue or tool; rather, it invites you on a yourney through the labyrinthine pathways of your choice. The language you select will be your compass in this uncharted territory, and though the paths may vary, the destination is yours to define.
+Before we plunge into the realm of coding, where language serves as both our guide and our enigma, we must make preparations. This tutorial does not confine you to a single tongue or tool; rather, it invites you on a journey through the labyrinthine pathways of your choice. The language you select will be your compass in this uncharted territory, and though the paths may vary, the destination is yours to define.
 
 ### Installing Odin
 
