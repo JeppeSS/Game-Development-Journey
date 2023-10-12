@@ -97,110 +97,86 @@ Let's dissect this magical script. I don't expect you to fully grasp it all at o
 
 * ` fmt.printf("Hello Aspiring Game Developer\n")` :  This line calls a procedure named **printf** from the **fmt** package to write or print the text "Hello Aspiring Game Developer," followed by a newline character **\n** (which moves the cursor to the next line).
 
-In simple terms, this program does the following::
+In simple terms, this program does the following:
 
 * It uses built-in tools from the **fmt** package to print a message to the terminal.
 * The message it prints is "Hello Aspiring Game Developer".
 
 With your first script ready, you're about to learn how to cast this spell effectively.
 
-### Step 3: Casting Your Spell
+### Step 3: Casting Your Code Spell
 
-## From Code to Computer Understanding
+Now, it's time to cast your first coding spell! We're going to transform the code you've crafted into a language that your computer can comprehend. Begin by opening your trusted command center, which you can find either in the form of the `Terminal` for Linux users or the `Command Prompt` for Windows users:
 
-Now, let's take a brief look at the magic that happens behind the scenes when you write code. When you write source code, it's like crafting a recipe for the computer. However, computers don't understand human languages, so your code needs to be translated into a language the computer can comprehend.
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>
+```
 
-Here's a simplified overview of this process:
+With your command center at the ready, let's reveal your arsenal. Depending on your operating system, you can use the following commands:
 
-1. **Writing Source Code:** You, the developer, write source code using a programming language like Odin. Source code is a set of instructions that describe what the computer should do.
+* **For Windows**:
+    ```shell
+    C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> dir
+    ```
 
-2. **Compiling:**
+    The `dir` command unveils all the hidden treasures in your current location. Your `Command Prompt` will now display:
 
+    ```shell
+    Directory of C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1
 
+    12/10/2023  20:29    <DIR>          .
+    10/10/2023  20:29    <DIR>          ..
+    12/10/2023  19:46               107 main.odin
+                1 File(s)            107 bytes
+    ```
 
+* **For Linux**:
+    ```shell
+    YourUsername@Something:~/Game-Dev-Sanctuary/Tutorial-1$ ls
+    ```
 
+    The `ls` command unveils the contents of your treasure chest. Your `Terminal` will now reveal:
 
+    ```shell
+    main.odin
+    ```
 
+There, you have it - the **main.odin** file that you've meticulously crafted, containing your magical code. Now, let's proceed with casting your spell. Return to your command center:
 
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>
+```
 
-## Setting the Stage for Your Epic Journey
+Now, it's time to invoke your coding magic. Execute the following command:
 
-Up until now, you've been on the sidelines, learning the basics and preparing your toolkit. But now, the stage is set for your grand entrance. Imagine this moment as your hero stepping out of their humble abode, ready to face the unknown. Your adventure begins here.
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> odin build main.odin -file
+```
 
-## Understanding the Significance
+Let's decipher this incantation. The word `odin` is a reference to the Odin compiler, your trusted magical translator that we installed in the previous chapter. `build` is the command that beckons the Odin compiler to perform its translation. This is where `main.odin` your chosen spellbook, comes into play - it's the file you wish to translate. Since it's a single file, we conclude with the `-file` flag. 
 
-Why is creating an interactive program so significant in game development? Let's unravel the importance:
+Now, let's once again unveil your treasures:
 
-- **Player Engagement**
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>dir
 
-- **Compile the Program:**
-    - Open your computer's terminal or command prompt.
-    - Navigate to the directory where you saved the **`.odin`** file.
-    - Compile the program by entering the following command:
+ Directory of C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1
 
-## Your First Challenge
+12/10/2023  20.31    <DIR>          .
+10/10/2023  20.29    <DIR>          ..
+12/10/2023  20.31           381.952 main.exe
+12/10/2023  19.46               107 main.odin
+```
 
-Our first challenge on this epic journey is to create an interactive program. This program will allow us to fetch user input and present information to the user. Think of it as the initial obstacle to overcome, the first puzzle to solve in our grand adventure.
+In your treasure chest, you'll now find a new executable file. Depending on your operating system, it may appear as `main.exe`, `main.bin`, or just `main`. The time has come to test the effectiveness of your spell:
 
-## Gearing up
+```shell
+C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> main.exe
+Hello Aspiring Game Developer
+```
 
-Before we dive into coding, let's prepare ourselves with a breif overview of what lies ahead. We'll discuss the concepts and tools we need to conquer this challenge successfully.
+Bravo! Your first coding spell has been cast, and it works like a charm!
 
-To create and run this program, follow these steps:
-
-- **Create a .odin File:**
-    - Open a text editor (e.g., Notepad, Visual Studio Code, or any code editor of your choice).
-    - Write the code above into the editor.
-    - Save the file with a **`.odin`** extension (e.g., **`hello.odin`**)
-- **Compile the Program:**
-    - Open your computer's terminal or command prompt.
-    - Navigate to the directory where you saved the **`.odin`** file.
-    - Compile the program by entering the following command:
-
-        ```
-        odin build hello.odin -file
-        ```
-        This command tells the compiler to compile **`hello.odin`** and procude an executable file named **`hello.exe`** or just **`hello`** depending on your operating system.
-- **Run the Program:**
-    - After successfully compilation, you can run the program by entering the following command:
-
-        **Windows:**
-
-        ```bash
-        .\hello.exe
-        ```
-
-        **Linux:**
-        ```bash
-        ./hello
-        ```
-        You should see the "Hello Aspiring Game Developer" message displayed on the screen.
-
-With these modifications, you not only learn how to code but also how to create, compile, and run a Odin program, which is a fundamental skill in software development.
-
-## Your First Interactive Program
-
-Now, let's enchance this program to make it interactive:
+## Theory: From Code to Computer Understanding
 
 ## Exercises
-
-### Exercise 1: Character Introduction
-
-Imagine you're crafting the beginning of a role-playing game (RPG). Modify your interactive program to introduce a character to the player. Ask the user to enter the name of their character and a class. Then, display a message like:
-
- **"Welcome, [Character Name] the [Character Class]!**
-
- 
- This exercise sets the stage for character-driven adventures.  
-
-### Exercise 2: Character Stats
-
-Enhance your RPG-inspired program by asking the user to define their character's attributes, such as strength, agility, and intelligence. Display the character's stats to the player.
-
-This exercise introduces the concept of character development in games.
-
-### Exercise 3: Character Interaction
-
-Expand your program to simulate an interaction between the player's character and a non-playable character (NPC). Create a scenario where the player's character encounters an NPC and exchanges dialogue. Prompt tbe user to enter dialogue for both characters, and display the conversation.
-
-This exercise introduces the concept of dialogues and interaction in storytelling.
