@@ -42,7 +42,7 @@ To sculpt your code and breathe life into your game development endavors, a trus
 
 Now, with Odin installed and VS Code at your fingertips, you possess a formidable arsenal to begin crafting your game development masterpieces.
 
-```
+```go
 package main
 
 import "core:fmt"

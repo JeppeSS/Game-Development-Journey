@@ -13,7 +13,7 @@ Before we dive into the practical side of things, it's time to create a dedicate
 Begin by selecting a location on your computer where you will house all your game development creations. Envision this place as your sanctuary, a sacred realm where your ideas will spring to life. If you are comfortable with the command line, let's embark on this journey together:
 
 ```shell
-C:\Users\YourUsername\Documents> mkdir Game-Dev-Sanctuary
+C:\Documents> mkdir Game-Dev-Sanctuary
 ```
 
 > **Note**: Commands are highlighted like this to make them stand out.
@@ -25,13 +25,13 @@ The `mkdir` command, much like a magician conjuring a portal, creates a new fold
 Now, let's step into your newly formed workspace:
 
 ```shell
-C:\Users\YourUsername\Documents> cd Game-Dev-Sanctuary
+C:\Documents> cd Game-Dev-Sanctuary
 ```
 
 The `cd` command, akin to a wise guide leading you through an enchanted forest, allows you to enter your sanctuary. Your command line will now read:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary>
+C:\Documents\Game-Dev-Sanctuary>
 ```
 
 ### Step 3: Establishing the Playground
@@ -39,13 +39,13 @@ C:\Users\YourUsername\Documents\Game-Dev-Sanctuary>
 To maintain impeccable organization for your projects, it is wise to create a subfolder for each endeavor. Picture these subfolders as chambers within your creative sanctuary. Let's craft one for your tutorial project:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary> mkdir Tutorial-1
+C:\Documents\Game-Dev-Sanctuary> mkdir Tutorial-1
 ```
 
 With this act, you have laid the foundation for your first game development masterpiece. Now, step into this chamber:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary> cd Tutorial-1
+C:\Documents\Game-Dev-Sanctuary> cd Tutorial-1
 ```
 
 These steps, akin to a ritual of preparation, ensure that your workspace is primed to host your coding odyssey. In the upcoming sections, we shall roll up our sleeves and embark on the thrilling journey of creating your very first interactive program. The skills you acquire here will serve as the brushstrokes on your canvas, setting the stage for your grand game development adventures!
@@ -59,13 +59,13 @@ Now, you are ready to inscribe the ancient runes of magic. The first script we s
 As you stand in your previously crafted chamber:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1>
 ```
 
 It's time to unfurl your code tome. If you followed along and installed `Visual Studio Code`, you can now open a new scroll using the following command. If you haven't installed it yet, you can create a new file as you usually do:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> code main.odin
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1> code main.odin
 ```
 
 Let's break down the command: `code` is a shortcut that comes with the installation of `Visual Studio Code`, which opens the editor. The second part, **main.odin**, tells Visual Studio Code to open the file if it exists or create a new file with that name.
@@ -116,20 +116,20 @@ With your first script ready, you're about to learn how to cast this spell effec
 Now, it's time to cast your first coding spell! We're going to transform the code you've crafted into a language that your computer can comprehend. Begin by opening your trusted command center, which you can find either in the form of the `Terminal` for Linux users or the `Command Prompt` for Windows users:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1>
 ```
 
 With your command center at the ready, let's reveal your arsenal. Depending on your operating system, you can use the following commands:
 
 * **For Windows**:
     ```shell
-    C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> dir
+    C:\Documents\Game-Dev-Sanctuary\Tutorial-1> dir
     ```
 
     The `dir` command unveils all the hidden treasures in your current location. Your `Command Prompt` will now display:
 
     ```shell
-    Directory of C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1
+    Directory of C:\Documents\Game-Dev-Sanctuary\Tutorial-1
 
     12/10/2023  20:29    <DIR>          .
     10/10/2023  20:29    <DIR>          ..
@@ -151,13 +151,13 @@ With your command center at the ready, let's reveal your arsenal. Depending on y
 There, you have it - the **main.odin** file that you've meticulously crafted, containing your magical code. Now, let's proceed with casting your spell. Return to your command center:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1>
 ```
 
 Now, it's time to invoke your coding magic. Execute the following command:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> odin build main.odin -file
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1> odin build main.odin -file
 ```
 
 Let's decipher this incantation. The word `odin` is a reference to the Odin compiler, your trusted magical translator that we installed in the previous chapter. `build` is the command that beckons the Odin compiler to perform its translation. This is where `main.odin`, your chosen spellbook, comes into play - it's the file you wish to translate. Since it's a single file, we conclude with the `-file` flag.
@@ -167,9 +167,9 @@ Let's decipher this incantation. The word `odin` is a reference to the Odin comp
 Now, let's once again unveil your treasures:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>dir
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1>dir
 
- Directory of C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1
+ Directory of C:\Documents\Game-Dev-Sanctuary\Tutorial-1
 
 12/10/2023  20.31    <DIR>          .
 10/10/2023  20.29    <DIR>          ..
@@ -180,7 +180,7 @@ C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1>dir
 In your treasure chest, you'll now find a new executable file. Depending on your operating system, it may appear as `main.exe`, `main.bin`, or just `main`. The time has come to test the effectiveness of your spell:
 
 ```shell
-C:\Users\YourUsername\Documents\Game-Dev-Sanctuary\Tutorial-1> main.exe
+C:\Documents\Game-Dev-Sanctuary\Tutorial-1> main.exe
 Hello Aspiring Game Developer
 ```
 
