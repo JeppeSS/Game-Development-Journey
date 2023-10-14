@@ -221,9 +221,7 @@ Follow the steps outlined in the chapter to create a project sanctuary and subfo
     * Take a look at the `mkdir` and `cd` commands.
 
 2. Within your project directory, create a new text file with a unique name.
-    * Take a look at the `
-
-vscode` command.
+    * Take a look at the `code` command.
 
 > **Tip**: Think of this as creating a new canvas for your coding exercises.
 
